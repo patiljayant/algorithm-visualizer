@@ -1,0 +1,15 @@
+.not-found{
+    height: 92vh;
+    text-align: center;
+    color: white;
+}
+
+.go-back{
+    color: white;
+    background-color: black;
+    padding:10px 10px;
+    border-radius: 50px ;
+    font-size: 4vh;
+    max-width: 300px;
+    margin: auto;
+}
