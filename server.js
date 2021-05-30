@@ -4,7 +4,8 @@ const app = express();
 const Algorithms = require('./dbConfig/models/algorithm.js')
 const port = process.env.PORT || 5000;
 const key = require('./dbConfig/keys/keys.js');
-const apiRoutes = require('./routes/api/apiRoutes.js');      
+const apiRoutes = require('./routes/api/apiRoutes.js');   
+const path = require('path');   
 
 
 app.use(express.json());
